@@ -60,12 +60,12 @@ Turns this...
 # Usage
 
 ```
-folderize.sh [dry|live] </absolute/path/to/folder>
+folderize.sh [dry|live] /absolute/path/to/folder
 ```
 
-`dry` **[Recommended the first time]** will make a ghost copies of all files in the path parameter in /tmp/folderize_dry_run and execute the script against them so you can see what the results will be like before running it against your actual files.
+`dry` **[Recommended the first time]** will makes empty, dummy copies of all files in the path parameter in /tmp/folderize_dry_run and executes the re-organization against them so you can see what the results will be like before running it against your actual files.
 
-`live` will run it for real on files specified in path parameter
+`live` will run it for real on files in path parameter
 
 
 # Examples
