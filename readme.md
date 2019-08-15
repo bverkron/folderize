@@ -52,18 +52,16 @@ and structures it like this...
 └── pizza.is.good
     └── pizza.is.good.mov
 ```
+
 # Usage
+
+```
 folderize.sh [dry|live] </absolute/path/to/folder>
+```
 
-```
-dry
-```
-Will make a ghost copies of all files in the path parameter in /tmp/folderize_dry_run and execute the script against them so you can see what the results will be like before running it against your actual files.
+`dry` will make a ghost copies of all files in the path parameter in /tmp/folderize_dry_run and execute the script against them so you can see what the results will be like before running it against your actual files.
 
-```
-live
-```
-Run it for real on files specified in path parameter
+`live` will run it for real on files specified in path parameter
 
 
 # Examples
