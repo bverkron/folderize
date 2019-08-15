@@ -1,6 +1,8 @@
 # Overview
 
-Organizes videos and assosciatd files into a single folder matching the name of the video files. Primarily written as a way to create folders for each movie in a flat directory in preperation for bulk import to Radarr. Basically an enhanced version of this, which I had trouble getting to work. https://github.com/Radarr/Radarr/wiki/How-to-Create-a-Folder-for-Each-Movie
+Organizes videos and their assosciated files into a single folder matching the name of the video file. Primarily written as a way to create folders for each movie from a flat directory in preparation for bulk import to Radarr. Basically an enhanced version of this, which I had trouble getting to work.
+https://github.com/Radarr/Radarr/wiki/How-to-Create-a-Folder-for-Each-Movie
+
 Written in a hasty and exhausted state so the code is by no means pretty or efficient, but it seems to work well in my limited tests.
 
 Example:
@@ -49,7 +51,7 @@ Turns this...
 
 # Limitations
 
-* Only runs against individual files in root of specified directory, no recursion. 
+* Only runs against individual files in root of specified directory, doesn't look at / touch existing directories, no recursion.
 * Only handles one directory at a time.
 * Only creates folders based on specific video file extensions such as mp4, mkv, m4v, avi, mov (though more can be added by editing the with those types. future version might contain a more easy to edit list)
 * **Currently only available as Linux shell script**
