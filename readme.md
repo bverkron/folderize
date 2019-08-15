@@ -88,9 +88,10 @@ renamed '/tmp/folderizer_tests/pizza.is.good.mov' -> '/tmp/folderizer_tests/pizz
 Done
 ```
 
-#### Result of run on "dirty" single library folder
+#### Result of run on "dirty" folder of videos
 Forgot to do a before / after so this is just after folderize was run. Most individual files were in the root folder, but some were already in their own individual folders (probably all the ones with subfolders and a few others). Some filenames do not match the parent foldername because Radarr renaming was done afterwards but it gives an examples of getting all the right files into a folder for that movie.
 
+```
 ├── Beauty.and.the.Beast.2017.720p.BluRay.x264-SPARKS
 │   ├── Beauty-and-the-Beast-2017-Bluray-720p.en.srt
 │   └── Beauty-and-the-Beast-2017-Bluray-720p.mkv
@@ -348,5 +349,5 @@ Forgot to do a before / after so this is just after folderize was run. Most indi
     ├── Zootopia.2016.BRRip.XviD.AC3-EVO.avi
     ├── Zootopia.2016.BRRip.XviD.AC3-EVO.en.srt
     └── Zootopia.2016.BRRip.XviD.AC3-EVO.nfo
-
+```
 
