@@ -3,7 +3,7 @@
 Organizes videos and assosciatd files into a single folder matching the name of the video files.
 Enhanced version of this https://github.com/Radarr/Radarr/wiki/How-to-Create-a-Folder-for-Each-Movie
 
-# Limitation
+# Limitations
 
 * Only runs against individual files in root of specified directory, no recursion. 
 * Only handles one directory at a time.
