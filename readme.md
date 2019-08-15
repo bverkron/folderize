@@ -3,6 +3,9 @@
 Organizes videos and their assosciated files into a single folder matching the name of the video file. Primarily written as a way to create folders for each movie from a flat directory in preparation for bulk import to Radarr. Basically an enhanced version of this, which I had trouble getting to work.
 https://github.com/Radarr/Radarr/wiki/How-to-Create-a-Folder-for-Each-Movie
 
+Found out about this afterwards, maybe it works even better. Haven't tried it.
+https://customerhelp.co.za/linux/file-to-folder-bash-script-for-linux-or-osx-movie-sorting-scraping.html
+
 Written in a hasty and exhausted state so the code is by no means pretty or efficient, but it seems to work well in my limited tests.
 
 Example:
