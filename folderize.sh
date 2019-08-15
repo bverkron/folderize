@@ -7,7 +7,7 @@ function folderize {
 
   run_folder=$1
 
-  echo $run_folder
+  echo "Running against folder: $run_folder"
 
   for file in "$run_folder"*
 
@@ -23,10 +23,6 @@ function folderize {
   for a in "$run_folder/"*
     do
       ext="${a##*.}"
-
-      if [ "$ext" = "mp4" ] ; then
-        echo "ext: $ext"
-      fi
 
       if [ ! -d "$a" ] && ( [ "$ext" = "mp4" ] || [ "$ext" = "mkv" ] || [ "$ext" = "m4v" ] || [ "$ext" = "mov" ] || [ "$ext" = "avi" ] ) ; then
         b=$(basename "$a")
@@ -51,6 +47,7 @@ function folderize {
           done
       fi
     done
+  echo "Done"
 }
 
 
@@ -59,7 +56,7 @@ if [ "$1" = "dry" ]; then
   dry_folder="/tmp/folderize_dry_run"
   mkdir "$dry_folder"
   echo "making folder $dry_folder"
-  
+
   for file in "$2"*
 
   do
