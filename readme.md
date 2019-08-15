@@ -64,10 +64,10 @@ folderize.sh [dry|live] </absolute/path/to/folder>
 `live` will run it for real on files specified in path parameter
 
 
-# Examples
+# Example
 ```
 $ folderize.sh live /tmp/folderizer_tests/
-/tmp/folderizer_tests/
+Running against folder: /tmp/folderizer_tests
 renamed '/tmp/folderizer_tests/a.mkv' -> '/tmp/folderizer_tests/a/a.mkv'
 renamed '/tmp/folderizer_tests/a.txt' -> '/tmp/folderizer_tests/a/a.txt'
 renamed '/tmp/folderizer_tests/b.mkv' -> '/tmp/folderizer_tests/b/b.mkv'
@@ -78,5 +78,7 @@ renamed '/tmp/folderizer_tests/e.mkv' -> '/tmp/folderizer_tests/e/e.mkv'
 renamed '/tmp/folderizer_tests/f.mp4' -> '/tmp/folderizer_tests/f/f.mp4'
 renamed '/tmp/folderizer_tests/g.mp4' -> '/tmp/folderizer_tests/g/g.mp4'
 renamed '/tmp/folderizer_tests/h.mp4' -> '/tmp/folderizer_tests/h/h.mp4'
+renamed '/tmp/folderizer_tests/pizza.is.good.mov' -> '/tmp/folderizer_tests/pizza.is.good/pizza.is.good.mov'
+Done
 ```
 
